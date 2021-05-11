@@ -1229,6 +1229,11 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
+api-ai-javascript@^2.0.0-beta.14:
+  version "2.0.0-beta.21"
+  resolved "https://registry.yarnpkg.com/api-ai-javascript/-/api-ai-javascript-2.0.0-beta.21.tgz#43465f6835dc4f0e14e0311c0bb64017f3148b5b"
+  integrity sha1-Q0ZfaDXcTw4U4DEcC7ZAF/MUi1s=
+
 argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
@@ -2581,9 +2586,9 @@ hermes-engine@^0.2.1:
   integrity sha512-eNHUQHuadDMJARpaqvlCZoK/Nitpj6oywq3vQ3wCwEsww5morX34mW5PmKWQTO7aU0ck0hgulxR+EVDlXygGxQ==
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
-  integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 http-errors@~1.7.2:
   version "1.7.3"
@@ -4080,6 +4085,19 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
+
+react-native-api-ai@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-api-ai/-/react-native-api-ai-1.4.0.tgz#9596e420f8003ded47dad8e9c9851e4c2a4e6a12"
+  integrity sha1-lZbkIPgAPe1H2tjpyYUeTCpOahI=
+  dependencies:
+    api-ai-javascript "^2.0.0-beta.14"
+    react-native-speech-to-text-ios "^1.0.4"
+
+react-native-speech-to-text-ios@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-speech-to-text-ios/-/react-native-speech-to-text-ios-1.0.4.tgz#65e20a6146de7967e6d41972c8d611b6ad937f82"
+  integrity sha1-ZeIKYUbeeWfm1BlyyNYRtq2Tf4I=
 
 react-native-view-shot@3.0.2:
   version "3.0.2"
